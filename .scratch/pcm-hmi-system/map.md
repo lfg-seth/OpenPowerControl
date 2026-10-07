@@ -25,6 +25,7 @@ Reach an approved, build-ready system specification and repository plan for a de
 <!-- Resolved ticket pointers are appended here; detail lives in each ticket. -->
 
 - [Name the system and its boundaries](issues/01-name-the-system-and-its-boundaries.md): The platform is Open Power Control (OPC), its power nodes are OPCMs, and its canonical language separates physical channels, vehicle Functions, independent Function State and Level, HMI Controls, higher-level behaviors, and external vehicle systems.
+- [Establish component and board constraints](issues/04-establish-component-and-board-constraints.md): Manufacturer documentation establishes classic-CAN, termination, output-driver, reset, diagnostic, timing, and I2C constraints while confirming that the PCB connectivity must be reconstructed before safe firmware assumptions can be made.
 
 ## Not yet specified
 
